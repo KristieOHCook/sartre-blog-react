@@ -1,0 +1,28 @@
+/* Assignment specific styles */
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: sans-serif;
+  border-left: 5px solid lightgray; /* The required left border */
+  min-height: 100vh;
+}
+
+header, main, footer {
+  padding: 1rem 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* Nav link colors */
+header nav a { color: lightgray; text-decoration: none; }
+footer nav a { color: tomato; text-decoration: none; }
+
+/* The First Letter requirement */
+.blog-text::first-letter {
+  font-size: 3rem;
+  color: lightgray;
+  float: left;
+  margin-right: 10px;
+}

@@ -1,12 +1,13 @@
-import Nav from './Nav'
+import Nav from './Nav';
 
 function Footer() {
   return (
     <footer>
-      <Nav />
-      <p style={{ color: 'lightgray' }}>&copy; 2026 Valet Industries, Inc.</p>
+    
+      <Nav isFooter={true} />
+      <p className="copyright">&copy; 2026 Valet Industries, Inc.</p>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

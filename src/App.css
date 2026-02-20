@@ -1,28 +1,74 @@
-/* Assignment specific styles */
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+
+.header-nav ul {
+  justify-content: space-between;
+}
+
+.header-nav a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.footer-nav a {
+  color: tomato;
+  text-decoration: none;
+}
+
+.footer-nav ul {
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+
 body {
   margin: 0 auto;
   max-width: 1000px;
   font-family: sans-serif;
-  border-left: 5px solid lightgray; /* The required left border */
+  border-left: 5px solid lightgray; 
   min-height: 100vh;
+  background-color: white;
+  color: black;
 }
 
 header, main, footer {
   padding: 1rem 2rem;
 }
 
+h1 {
+  color: tomato;
+}
+
 img {
   width: 100%;
 }
 
-/* Nav link colors */
-header nav a { color: lightgray; text-decoration: none; }
-footer nav a { color: tomato; text-decoration: none; }
+.continues {
+  display: block;
+  text-align: right;
+  color: tomato;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 1rem;
+}
 
-/* The First Letter requirement */
+article {
+  margin-bottom: 4rem; 
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
 .blog-text::first-letter {
   font-size: 3rem;
   color: lightgray;
   float: left;
   margin-right: 10px;
+}
+
+.copyright {
+  color: lightgray;
 }

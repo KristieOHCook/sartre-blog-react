@@ -1,13 +1,15 @@
-# React + Vite
-# [Netlify Live Link](https://fastidious-sunshine-01ee51.netlify.app)
-# [GitHub Pages Live Link](https://kristieohcook.github.io/sartre-blog-html/)
-# [GitHub Link of HTML Version](https://github.com/KristieOHCook/sartre-blog-html)
+# Fashion Blog - React Conversion
 
+This project is a conversion of a static HTML/CSS layout into a functional, component-based **React** application.
 
-## React Compiler
+## 🔗 Project Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Live React Deployment (Netlify):** [https://playful-faun-d922cd.netlify.app/](https://playful-faun-d922cd.netlify.app/)
+* **GitHub Repository:** [https://github.com/KristieOHCook/sartre-blog-react](https://github.com/KristieOHCook/sartre-blog-react)
+* **Static HTML Version:** [https://kristieohcook.github.io/sartre-blog-react/src/components/html-version/index.html](https://kristieohcook.github.io/sartre-blog-react/src/components/html-version/index.html)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Features
+* **Reusable Components**: Built with `Header`, `Nav`, `Article`, and `Footer`.
+* **Dynamic Props**: Article data is passed into components via props.
+* **Semantic Styling**: Matches the mockup with a **5px lightgray border** and **tomato** accents.
+* **Alignment**: "Continues..." links are aligned to the right per project requirements.

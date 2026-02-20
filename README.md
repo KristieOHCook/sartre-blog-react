@@ -1,6 +1,6 @@
 # Fashion Blog - React Conversion
 
-# [Netlify Live Link](https://fastidious-sunshine-01ee51.netlify.app)
+# [Netlify Live Link](https://playful-faun-d922cd.netlify.app/astidious-sunshine-01ee51.netlify.app)
 # [GitHub Pages Live Link](https://kristieohcook.github.io/sartre-blog-html/)
 # [GitHub Link of HTML Version](https://github.com/KristieOHCook/sartre-blog-html)
 
